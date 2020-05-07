@@ -1,0 +1,35 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "main": "app.js",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "node app.js",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "firebase": "^7.7.0",
+    "firebase-admin": "^8.6.0",
+    "firebase-functions": "^3.3.0",
+    "firebaseui": "^4.4.0",
+    "http": "0.0.0",
+    "js-alert": "^1.0.4",
+    "paypal-rest-sdk": "^1.8.1",
+    "session": "^0.1.0",
+    "twilio": "^3.39.3"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.1.6"
+  },
+  "private": true
+}
